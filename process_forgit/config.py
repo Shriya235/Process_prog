@@ -1,4 +1,4 @@
-logfile='alpha_board_router_stats_one.txt'
+logfile='alpha_board_router_stats.txt'
 
 process_lis=['hostapd -g', 'wpa_supplicant -g', 'check_fw','dal_cb_handler','check_ra','guster/guster -c guster.yaml -c ','/opt/xagent/xagent -w -d --log_debug --ca_file /opt/',
 '/opt/xagent/xagent -w -d --log_debug --ca_file /opt/','d2 -w XagentCtrl.xcenv','/upagent --log_debug --log_file /','./aws_json','/hyd-lan.conf -P 7777 -cfg80','/hostapd-wifi2 -P /',
